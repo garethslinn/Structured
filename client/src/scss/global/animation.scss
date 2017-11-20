@@ -1,0 +1,23 @@
+@keyframes rotate-360 {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes drifting {
+    0%, 100% {
+        transform: rotate3d(0, 0, 1, -3deg);
+    }
+    50% {
+        transform: rotate3d(0, 0, 1, 3deg);
+    }
+}
+
+@keyframes talking {
+    33% {
+        transform: scale3d(0.85, 1, 1);
+    }
+    66% {
+        transform: scale3d(1, 0.85, 1);
+    }
+}

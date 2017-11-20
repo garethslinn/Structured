@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    background-color: #666;
+    border: 1px solid #000;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-gap: 0.15rem;
+}
+
+/* theme */
+.theme-2 {
+    article:nth-child(2),
+    article:nth-child(5),
+    article:nth-child(9) {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+
+    article:nth-child(1) {
+        grid-row: span 4;
+        grid-column: span 2;
+    }
+}
+

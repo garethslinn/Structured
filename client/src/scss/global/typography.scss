@@ -1,0 +1,33 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: arial, Helvetica, sans-serif;
+    margin: 0 0 0.5em 0;
+}
+
+h1, .h1 {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+h2, .h2 {
+    font-size: 33px;
+    line-height: 39px;
+}
+
+h3, .h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+h4, .h4 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.hr {
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+}
+
+hr {
+    margin: 0;
+}

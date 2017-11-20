@@ -1,0 +1,74 @@
+.monster-character {
+  width: 450px;
+  margin: 20px auto;
+  background: linear-gradient(to bottom, rgba(13, 151, 153, 0.3) 0%, rgba(24, 202, 204, 0.7) 40%, #fff 100%);
+  background-repeat: no-repeat;
+
+  .character-container {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 70px;
+  }
+
+  .character {
+    animation: drifting 3s ease-in-out infinite;
+    display: inline-block;
+    border: 6px solid #000;
+    width: 100%;
+    height: 120%;
+    margin: 0;
+    border-radius: 5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: relative;
+    background: radial-gradient(circle at 50% 40%, #ffc800, #CF7300 100%, #fff 100%);
+
+    .mouth {
+      animation: talking 3s ease-in-out infinite;
+      position: absolute;
+      background: #000;
+      top: 70%;
+      left: 22%;
+      right: 22%;
+      bottom: 15%;
+      border-radius: 30% 30% 40% 40%;
+      transform-origin: center top;
+      overflow: hidden;
+      transition: transform 0.25s;
+    }
+
+    .eye {
+      width: 30%;
+      height: 25%;
+      margin: 33%;
+      border-radius: 100%;
+      border: 5px solid darkgoldenrod;
+      background: radial-gradient(circle at 50% 50%, #fff 0%, #008000 30%, greenyellow 100%);
+      position: absolute;
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 33%;
+        height: 33%;
+        border-radius: 100%;
+        top: 33%;
+        left: 33%;
+        background: black;
+      }
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 31.25%;
+        height: 31.25%;
+        border-radius: 100%;
+        top: 15%;
+        left: 15%;
+        background: rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}
+
