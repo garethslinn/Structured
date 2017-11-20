@@ -2,6 +2,9 @@
     display: block;
     background-color: #fff;
     padding: 10px;
+    @include bp-m {
+        padding: 0;
+    }
 
     img {
         width: 100%;

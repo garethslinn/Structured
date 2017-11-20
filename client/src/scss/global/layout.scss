@@ -4,6 +4,9 @@ body {
     font-family: Arial;;
     color: #2b3e51;
     background-color: $color-white;
+    @include bp-m {
+      margin: 3em 1em 0 1em;
+    }
 }
 .wrapper {
   @include bp-tl-and-fs {
