@@ -16,6 +16,8 @@ class Header extends Component {
                         <li><a href="/form">Form</a></li>
                     </ul>
                 </nav>
+
+                <a href="#" className="menu-button">Menu<span></span></a>
             </header>
         )
     }
