@@ -8,6 +8,7 @@ import {
 
 import Monster from './components/Monster';
 import Contactform from './components/Contactform';
+import Full from './components/Full';
 
 
 const Root = () => {
@@ -15,7 +16,7 @@ const Root = () => {
         <Router>
             <div>
                 <Switch>
-                    <Route path='/' exact component={ Contactform } />
+                    <Route path='/' exact component={ Full } />
                     <Route path="/monster" component={ Monster } />
                 </Switch>
             </div>

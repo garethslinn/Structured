@@ -5,3 +5,13 @@ body {
     color: #2b3e51;
     background-color: #ffffff;
 }
+
+.clear-fix:before,
+.clear-fix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+  clear: both;
+}
+.clear-fix {
+  *zoom: 1;
+}

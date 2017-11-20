@@ -1,4 +1,8 @@
-@import 'global/reset';
+@import 'ext/reset';
+@import 'ext/normalize';
+
+@import 'mixins/index';
+
 @import 'global/animation';
 @import 'global/grid';
 @import 'global/layout';
@@ -7,4 +11,5 @@
 @import 'modules/forms';
 @import 'modules/product';
 @import 'modules/monster';
+
 
