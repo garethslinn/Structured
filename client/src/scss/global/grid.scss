@@ -1,9 +1,8 @@
 .grid {
     display: grid;
-    background-color: #666;
-    border: 1px solid #000;
+    background-color: #fff;
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-    grid-gap: 0.15rem;
+    grid-gap: 1.15rem;
 }
 
 /* theme */

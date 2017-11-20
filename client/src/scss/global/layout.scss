@@ -3,8 +3,68 @@ body {
     font-size: 1.1rem;
     font-family: Arial;;
     color: #2b3e51;
-    background-color: #ffffff;
+    background-color: $color-white;
 }
+.wrapper {
+  @include bp-tl-and-fs {
+    margin-top: 100px;
+  }
+}
+
+main {
+  background: #fff;
+}
+
+header {
+  position: fixed;
+  background-color: $color-corporate;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  padding: 5px;
+  @include bp-tl-and-fs {
+    height: 80px;
+  }
+}
+
+.nav {
+  li {
+    display: inline-block;
+  }
+  a {
+    text-decoration: none;
+    color: $color-white;
+    display: block;
+    padding: 14px 20px 10px 0;
+    &:hover {
+      text-decoration: underline;
+    }
+    @include bp-tl-and-fs {
+      padding-top: 43px;
+      padding-bottom: 0;
+    }
+  }
+}
+
+footer {
+  background-color: $color-white;
+}
+
+.logo {
+  float: left;
+  margin-right: 20px;
+
+  img {
+    width: 140px;
+    @include bp-tl-and-fs {
+      width: auto;
+    }
+  }
+}
+
 
 .clear-fix:before,
 .clear-fix:after {

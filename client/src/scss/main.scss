@@ -1,6 +1,8 @@
 @import 'ext/reset';
 @import 'ext/normalize';
 
+@import 'setup/colours';
+
 @import 'mixins/index';
 
 @import 'global/animation';
@@ -9,6 +11,7 @@
 @import 'global/typography';
 
 @import 'modules/forms';
+@import 'modules/buttons';
 @import 'modules/product';
 @import 'modules/monster';
 
