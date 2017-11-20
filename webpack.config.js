@@ -9,7 +9,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-    entry: ['./client/index.js', './client/src/scss/main.scss'],
+    entry: ['webpack/hot/only-dev-server', './client/index.js', './client/src/scss/main.scss'],
     output: {
         path: path.resolve('dist'),
         filename: 'index_bundle.js'
@@ -32,6 +32,9 @@ module.exports = {
             }
         ],
 
+    },
+    devServer: {
+        historyApiFallback: true,
     },
     plugins: [
         HtmlWebpackPluginConfig,

@@ -20,7 +20,7 @@ class Form extends Component {
                         <h4>Membership type</h4>
 
                         <p className="dropdown">
-                            <select className="budget">
+                            <select>
                                 <option value="0">Select option</option>
                                 <option value="1">Gold</option>
                                 <option value="2">Silver</option>
@@ -31,6 +31,16 @@ class Form extends Component {
 
                     <div>
                         <h4>Gym use</h4>
+
+                        <h4>Eat out?</h4>
+
+                        <ul className="form-list">
+                            <li>
+                                <input type="checkbox" id="op-1" />
+                                <label htmlFor="op-1">All the time</label>
+                            </li>
+                        </ul>
+
 
                         <ul className="form-list">
                             <li>
@@ -44,17 +54,6 @@ class Form extends Component {
                             <li>
                                 <input type="radio" name="radio-button" id="radio-3" />
                                     <label htmlFor="radio-3">Obessed</label>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4>Eat out?</h4>
-
-                        <ul className="form-list">
-                            <li>
-                                <input type="checkbox" id="op-1" />
-                                <label htmlFor="op-1">All the time</label>
                             </li>
                         </ul>
                     </div>
