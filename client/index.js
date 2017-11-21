@@ -10,6 +10,7 @@ import Monster from './components/Monster';
 import Contactform from './components/Contactform';
 import Full from './components/Full';
 import Products from './components/Products';
+import Typography from './components/Typography';
 
 
 const Root = () => {
@@ -19,9 +20,9 @@ const Root = () => {
             <div>
                 <Switch>
                     <Route path='/' exact component={ Full } />
-                    <Route path="/monster" component={ Monster } />
                     <Route path="/form" component={ Contactform } />
                     <Route path="/products" component={ Products } />
+                    <Route path="/typography" component={ Typography } />
                 </Switch>
             </div>
         </Router>

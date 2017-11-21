@@ -9,7 +9,9 @@ class Full extends Component {
                 <Header />
                 <div className="wrapper">
                     <main>
-                        <h1>Main page</h1>
+                        <h1>What is Structured?</h1>
+                        <p>This project is in development... </p>
+                        <p>It is currently an experimental project therefore objectives are currently unclear.</p>
                     </main>
                 </div>
                 <Footer />

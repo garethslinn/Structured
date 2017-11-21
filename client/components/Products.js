@@ -13,7 +13,7 @@ class Products extends Component {
 
                         <h2 className="theme-title">Product panel</h2>
                         <div id="theme" className="theme theme-1">
-                            <section className="grid">
+                            <section className="grid panel">
                                 <article className="product">
                                     <img src="client/src/images/products/image1.jpg" />
                                     <h3 className="title">My Family</h3>

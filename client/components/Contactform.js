@@ -70,7 +70,7 @@ class Form extends Component {
                                 </div>
 
                                 <div>
-                                    <input type="submit" value="Submit" />
+                                    <button className="button">Submit</button>
                                 </div>
                             </fieldset>
                         </form>

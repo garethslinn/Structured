@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1; }
 
-ol, ul, outline {
+ol, ul {
   list-style: none; }
 
 blockquote, q {
@@ -514,15 +514,6 @@ footer {
       .logo img {
         width: auto; } }
 
-.panel {
-  border: 1px solid #add8e6;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 20px; }
-
-.code {
-  background-color: #f1f1f1; }
-
 .clear-fix:before,
 .clear-fix:after {
   content: " ";
@@ -775,18 +766,30 @@ Form
   .form select {
     padding: 16px; } }
 
-.button {
+input[type="submit"] {
   /* button style */
   border: none;
   background: #43A9D4;
   border-radius: .25em;
   padding: 16px 20px;
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
   float: right;
   cursor: pointer; }
-  .button:hover {
-    background: #666; }
+
+input[type="submit"]:hover {
+  background: #666; }
+
+input[type="submit"]:focus {
+  outline: none;
+  background: #008000; }
+
+input[type="submit"]:active {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9); }
 
 .menu-button {
   display: block;
