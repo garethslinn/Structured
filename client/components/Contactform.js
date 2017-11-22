@@ -26,6 +26,7 @@ class Form extends Component {
                                     <h4>Membership type</h4>
 
                                     <p className="dropdown">
+                                        <i className="fa fa-angle-up fa-small" aria-hidden="true"></i>
                                         <select>
                                             <option value="0">Select option</option>
                                             <option value="1">Gold</option>
