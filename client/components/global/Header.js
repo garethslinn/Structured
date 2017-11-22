@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Nav from './Nav';
 
 class Header extends Component {
     constructor() {
@@ -24,13 +25,8 @@ class Header extends Component {
                 <div className="logo">
                     <img src="client/src/images/corporate/logo.svg" alt="Logo" />
                 </div>
-                <nav>
-                    <ul className={this.state.isVisible ? 'nav show' : 'nav hide'}>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/products">Products</a></li>
-                        <li><a href="/form">Form</a></li>
-                        <li><a href="/typography">Typography</a></li>
-                    </ul>
+                <nav className={this.state.isVisible ? 'nav show' : 'nav hide'}>
+                    <Nav />
                 </nav>
 
                 <a href="#" className="menu-button" onClick={this.handleClick}>Menu<span></span></a>

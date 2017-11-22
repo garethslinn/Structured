@@ -11,6 +11,7 @@ import Contactform from './components/Contactform';
 import Full from './components/Full';
 import Products from './components/Products';
 import Typography from './components/Typography';
+import Pagination from './components/Pagination';
 
 
 const Root = () => {
@@ -23,6 +24,7 @@ const Root = () => {
                     <Route path="/form" component={ Contactform } />
                     <Route path="/products" component={ Products } />
                     <Route path="/typography" component={ Typography } />
+                    <Route path="/pagination" component={ Pagination } />
                 </Switch>
             </div>
         </Router>
