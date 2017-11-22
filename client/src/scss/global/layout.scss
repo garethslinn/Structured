@@ -8,6 +8,11 @@ body {
       margin: 3em 1em 0 1em;
     }
 }
+
+h1, h2, h3, h4, h5 {
+  color: $color-corporate;
+}
+
 .wrapper {
   @include bp-tl-and-fs {
     margin-top: 100px;
