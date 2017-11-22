@@ -10,6 +10,10 @@
 
   a {
     color: $color-corporate;
+    &.selected {
+      background: $color-corporate;
+      color: $color-white;
+    }
   }
 
   li {
@@ -24,8 +28,10 @@
   .button, .button-pagination {
     background: $color-white;
     border: 1px solid $color-corporate;
-    padding: 0.5em;
+    padding: 0.6em;
+    min-width: 2.5em;
     font-weight: normal;
+    text-decoration: none;
     a {
       position: relative;
       text-decoration: none;
