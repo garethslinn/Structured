@@ -1,8 +1,6 @@
 body {
     margin: 3em;
     font-size: 1.1rem;
-    font-family: Arial;;
-    color: #2b3e51;
     background-color: $color-white;
     @include bp-m {
       margin: 3em 1em 0 1em;

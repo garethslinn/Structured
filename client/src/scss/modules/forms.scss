@@ -41,6 +41,10 @@
   legend {
     display: block;
     width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
     appearance: none;
   }
   input[type="text"],
@@ -63,6 +67,12 @@
   }
   .dropdown {
     position: relative;
+    .fa {
+      position: absolute;
+      color: #666;
+      right: 10px;
+      top: 4px;
+    }
   }
   .dropdown::after {
     content: '';
@@ -94,6 +104,9 @@
   .form-list li {
     display: inline-block;
     position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     margin: 0 26px 16px 0;
     float: left;
@@ -103,6 +116,10 @@
     position: absolute;
     left: 0;
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     transform: translateY(-50%);
     margin: 0;
     padding: 0;
@@ -192,5 +209,4 @@
       padding: 16px;
     }
   }
-
 }
