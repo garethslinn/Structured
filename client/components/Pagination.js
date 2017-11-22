@@ -14,7 +14,7 @@ class Pagination extends Component {
                         <nav role="navigation">
                             <ul className="pagination">
                                 <li><a className="button" href="#">
-                                    <i class="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>
+                                    <i className="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>
                                     Prev</a>
                                 </li>
                                 <li><a className="button button-pagination selected" href="#">1</a></li>
@@ -24,7 +24,7 @@ class Pagination extends Component {
                                 <li><span>...</span></li>
                                 <li><a className="button button-pagination" href="#">20</a></li>
                                 <li className="button"><a href="#">Next&nbsp;
-                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                    <i className="fa fa-angle-double-right" aria-hidden="true"></i>
                                 </a></li>
                             </ul>
                         </nav>
@@ -36,7 +36,7 @@ class Pagination extends Component {
 <nav role="navigation">
     <ul className="pagination">
         <li><a className="button" href="#">
-            <i class="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>
+            <i className="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>
             Prev</a>
         </li>
         <li>
@@ -56,7 +56,7 @@ class Pagination extends Component {
             <a className="button button-pagination" href="#">20</a>
         </li>
         <li className="button"><a href="#">Next&nbsp;
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <i className="fa fa-angle-double-right" aria-hidden="true"></i>
         </a></li>
     </ul>
 </nav>
