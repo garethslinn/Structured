@@ -1,8 +1,12 @@
 .pagination {
-  width: 90%;
+  width: 60%;
   max-width: 768px;
   margin: 4em auto 8em;
   text-align: center;
+
+  @include bp-m {
+    width: 50%;
+  }
 
   a {
     color: $color-corporate;
@@ -21,10 +25,17 @@
     background: $color-white;
     border: 1px solid $color-corporate;
     padding: 0.5em;
+    font-weight: normal;
     a {
       position: relative;
       text-decoration: none;
       color: $color-corporate;
+    }
+  }
+
+  @include bp-m {
+    .button-pagination, span {
+      display: none;
     }
   }
 
