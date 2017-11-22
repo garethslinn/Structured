@@ -6,9 +6,12 @@ class Pagination extends Component {
     render () {
         return (
             <div>
+
                 <Header />
                 <div className="wrapper">
                     <main>
+                        <h1>Pagination</h1>
+                        <p>Still in development</p>
                         <nav role="navigation">
                             <ul className="pagination no-space move-buttons">
                                 <li className="button"><a href="#0">Prev</a></li>
