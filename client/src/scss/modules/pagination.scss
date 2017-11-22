@@ -10,15 +10,17 @@
 
   li {
     margin: 0 .2em;
+    display: inline-block;
   }
   .disabled {
     color: rgba(0, 0, 0, 0.5);
     pointer-events: none;
     user-select: none;
   }
-  .button {
+  .button, .button-pagination {
     background: $color-white;
     border: 1px solid $color-corporate;
+    padding: 0.5em;
     a {
       position: relative;
       text-decoration: none;
