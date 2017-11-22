@@ -9,7 +9,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-    entry: ['webpack/hot/only-dev-server', './client/index.js', './client/src/scss/main.scss'],
+    entry: ['./client/index.js', './client/src/scss/main.scss'],
     output: {
         path: path.resolve('dist'),
         filename: 'index_bundle.js'

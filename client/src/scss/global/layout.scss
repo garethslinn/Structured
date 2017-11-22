@@ -11,6 +11,14 @@ h1, h2, h3, h4, h5 {
   color: $color-corporate;
 }
 
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
 .wrapper {
   @include bp-tl-and-fs {
     margin-top: 100px;

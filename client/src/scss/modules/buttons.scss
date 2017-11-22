@@ -1,15 +1,31 @@
 
 .button {
-  /* button style */
   border: none;
   background: $color-corporate;
   border-radius: .25em;
   padding: 16px 20px;
   color: $color-white;
   font-weight: bold;
-  float: right;
   cursor: pointer;
   &:hover {
     background: #666;
   }
 }
+
+.button-action {
+  background-color: $color-action;
+}
+
+.button-warning {
+  background-color: $color-warning;
+}
+
+.button-danger {
+  background-color: $color-danger;
+}
+
+.button-plain {
+  background-color: $color-plain;
+}
+
+
