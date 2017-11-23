@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
 
             <footer>
-                <p>footer placeholder</p>
+                <p>&copy; Structured 2017</p>
             </footer>
         )
     }
