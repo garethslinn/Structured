@@ -9,7 +9,7 @@ class Tabs extends Component {
                 <Header />
                 <div className="wrapper">
                     <main>
-                        <article className="tabs">
+                        <article className="tabs panel">
                             <section id="tab1">
                                 <h2><a href="#tab1">Option 1</a></h2>
                                 <p>Lorem ipsum dolor sit amet, nec graece omittam necessitatibus cu, sed at modo delicatissimi. Eu quo dolorum repudiare.</p>

@@ -10,7 +10,8 @@ class Form extends Component {
                 <Header />
                 <div className="wrapper">
                     <main>
-                        <form className="form">
+                        <h1>Form</h1>
+                        <form className="form panel">
                             <fieldset>
                                 <legend>Your details</legend>
 
