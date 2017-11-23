@@ -11,6 +11,7 @@ class Nav extends Component {
                 <li><a href="/typography">Typography</a></li>
                 <li><a href="/pagination">Pagination</a></li>
                 <li><a href="/buttons">Buttons</a></li>
+                <li><a href="/tabs">Tabs</a></li>
             </ul>
         )
     }

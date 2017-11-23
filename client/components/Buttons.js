@@ -11,9 +11,9 @@ class Buttons extends Component {
                     <main>
                         <h1>Buttons</h1>
                         <section className="panel">
-                            <button className="button button-action">Action</button>
-                            <button className="button button-warning">Warning</button>
-                            <button className="button button-danger">Danger</button>
+                            <button className="button button-action">Action</button>&nbsp;
+                            <button className="button button-warning">Warning</button>&nbsp;
+                            <button className="button button-danger">Danger</button>&nbsp;
                             <button className="button button-plain">Information</button>
                         </section>
 

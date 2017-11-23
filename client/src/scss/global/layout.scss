@@ -29,6 +29,10 @@ main {
   background: #fff;
 }
 
+pre {
+  font-size: 0.8em;
+}
+
 header {
   position: fixed;
   background-color: $color-corporate;
@@ -85,6 +89,7 @@ header {
       transform: translateY(-100%);
       transition: transform 0.3s;
       opacity: 0;
+      visibility: hidden;
     }
   }
 }

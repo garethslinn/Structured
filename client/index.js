@@ -13,6 +13,7 @@ import Products from './components/Products';
 import Typography from './components/Typography';
 import Pagination from './components/Pagination';
 import Buttons from './components/Buttons';
+import Tabs from './components/Tabs';
 
 
 const Root = () => {
@@ -27,6 +28,7 @@ const Root = () => {
                     <Route path="/typography" component={ Typography } />
                     <Route path="/pagination" component={ Pagination } />
                     <Route path="/buttons" component={ Buttons } />
+                    <Route path="/Tabs" component={ Tabs } />
                 </Switch>
             </div>
         </Router>
