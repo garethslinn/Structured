@@ -1,6 +1,6 @@
 .grid {
     display: grid;
-    background-color: #fff;
+    background-color: $color-white;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1.15rem;
 }
