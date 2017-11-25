@@ -21,3 +21,22 @@
         transform: scale3d(1, 0.85, 1);
     }
 }
+
+@keyframes ltrBounce{
+    0% {
+        opacity:0;
+        transform:  translate(-1500px,0px)  ;
+    }
+    60% {
+        opacity:1;
+        transform:  translate(30px,0px)  ;
+    }
+    80% {
+        transform:  translate(-10px,0px)  ;
+    }
+    100% {
+        opacity:1;
+        transform:  translate(0px,0px)  ;
+    }
+}
+

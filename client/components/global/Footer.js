@@ -5,7 +5,13 @@ class Footer extends Component {
         return (
 
             <footer>
-                <p>&copy; Structured 2017</p>
+                <section className="footer-upper">
+
+
+                </section>
+                <section className="footer-lower">
+                    &copy; Copyright 2017 - Structured UI
+                </section>
             </footer>
         )
     }
